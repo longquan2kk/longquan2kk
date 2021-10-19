@@ -1212,7 +1212,7 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/bg.jpg");
 			background-position: center;
-			background-size: cover;
+			background-size: 100%;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
@@ -1487,10 +1487,10 @@ input, select, textarea {
 				margin-top: 2rem;
 			}
 
-				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
+			#header > *:before {
+				top: calc(-2rem - 1px);
+				height: calc(2rem + 1px);
+			}
 
 			#header .logo {
 				width: 4.75rem;
@@ -1498,9 +1498,9 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
+			#header .logo .icon:before {
+				font-size: 1.75rem;
+			}
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
